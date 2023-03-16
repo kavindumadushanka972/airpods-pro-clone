@@ -27,12 +27,29 @@ body {
   color: white;
 }
 
+.middle-sec {
+  height: 100vh;
+}
+
+.middle-sec h1 {
+  padding-top: 45vh;
+  text-align: center;
+  font-size: 72px;
+}
+
 section {
   height: 100vh;
-  color: black;
+  color: white;
+}
+
+section video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 section h1 {
+  position: absolute;
   padding-top: 300px;
   text-align: center;
   font-size: 80px;
